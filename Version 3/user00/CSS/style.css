@@ -9,23 +9,34 @@ table {
 }
 
 tr {
-	border: 1px solid #ffffff;
-	text-align: center;
-	background-color:#9FB6CD; 
+	
+    border: 1px solid white;
+    text-align: center;
+    background-color: #9FB6CD;
+    color: #003366;
+
 }
 
 th {
-	text-align: center;
-	color: #ffffff;
-	background-color: #003366;
+	
+    text-align: center;
+    color: white;
+    background-color: #003366;
 }
+
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #050817;
+    background-color: #050817;
+    background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
 }
+
 
 .music-page {
     max-width: 1200px;
@@ -122,6 +133,31 @@ ol {
     background-color: lightblue;
 }
 
+ul {
+    color: darkgreen;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: lightyellow;
+}
+
+/* Background image for the whole website */
+body {
+    background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Ordered list styling */
+ol {
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: lightblue;
+}
+
+/* Unordered list styling */
 ul {
     color: darkgreen;
     font-size: 20px;
